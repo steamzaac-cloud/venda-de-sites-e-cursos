@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zaac Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Zaac <span>SITES</span></h1>
+
+    <nav>
+        <a href="cursos.html">Cursos</a>
+        <a href="#inicio">Início</a>
+        <a href="#sites">Sites</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section id="inicio">
+
+        <p class="mini-titulo">
+            SITES PROFISSIONAIS • MODERNOS • RESPONSIVOS
+        </p>
+
+        <h2>
+            Transforme sua ideia
+            <span>em um site profissional.</span>
+        </h2>
+
+        <p>
+            Sites modernos para empresas, lojas,
+            barbearias, restaurantes e muito mais.
+        </p>
+
+        <a href="#sites" class="botao-principal">
+            Ver modelos
+        </a>
+
+    </section>
+
+
+    <section id="sites">
+
+        <h2>Sites disponíveis</h2>
+
+        <p class="subtitulo">
+            Escolha um modelo ou solicite um site personalizado.
+        </p>
+
+        <div id="lista-produtos"></div>
+
+    </section>
+
+
+    <section id="sobre">
+
+        <h2>Por que escolher nossos sites?</h2>
+
+        <div class="vantagens">
+
+            <div>
+                <h3>📱 Responsivo</h3>
+                <p>Funciona no celular, tablet e computador.</p>
+            </div>
+
+            <div>
+                <h3>⚡ Rápido</h3>
+                <p>Sites leves e preparados para carregar rapidamente.</p>
+            </div>
+
+            <div>
+                <h3>🎨 Personalizado</h3>
+                <p>Cores, textos, imagens e informações do cliente.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contato">
+
+        <h2>Quer um site personalizado?</h2>
+
+        <p>
+            Entre em contato e explique como você quer seu site.
+        </p>
+
+        <a
+            href="https://wa.me/5538999851713"
+            target="_blank"
+            class="whatsapp"
+        >
+            Falar no WhatsApp
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 Zaac Studio</p>
+</footer>
+
+
+<script src="produtos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+<!-- BOT DE AJUDA -->
+
+<button id="abrir-bot">💬</button>
+
+<div id="bot-container">
+
+    <div class="bot-topo">
+        <div>
+            <strong>Zaac Bot</strong>
+            <p>● Online</p>
+        </div>
+
+        <button id="fechar-bot">✕</button>
+    </div>
+
+    <div id="bot-mensagens">
+
+        <div class="mensagem-bot">
+            👋 Olá! Sou o assistente da Zaac Digital.
+            Como posso ajudar?
+        </div>
+
+    </div>
+
+    <div class="bot-opcoes">
+
+        <button onclick="responderBot('preco')">
+            💰 Ver preços
+        </button>
+
+        <button onclick="responderBot('prazo')">
+            ⏱️ Prazo de entrega
+        </button>
+
+        <button onclick="responderBot('comprar')">
+            🛒 Como comprar
+        </button>
+
+        <button onclick="responderBot('personalizado')">
+            🎨 Site personalizado
+        </button>
+
+        <button onclick="responderBot('whatsapp')">
+            📱 Falar com Zaac
+        </button>
+
+    </div>
+
+</div>
